@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F702C7C1D149E6700E9EE97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F702C7B1D149E6700E9EE97 /* AppDelegate.swift */; };
+		4F702C7E1D149E6700E9EE97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F702C7D1D149E6700E9EE97 /* ViewController.swift */; };
+		4F702C811D149E6700E9EE97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F702C7F1D149E6700E9EE97 /* Main.storyboard */; };
+		4F702C841D149E6700E9EE97 /* KaBoomTwo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F702C821D149E6700E9EE97 /* KaBoomTwo.xcdatamodeld */; };
+		4F702C861D149E6700E9EE97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F702C851D149E6700E9EE97 /* Assets.xcassets */; };
+		4F702C891D149E6700E9EE97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F702C871D149E6700E9EE97 /* LaunchScreen.storyboard */; };
+		4F702C941D149E6700E9EE97 /* KaBoomTwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F702C931D149E6700E9EE97 /* KaBoomTwoTests.swift */; };
+		4F702C9F1D149E6700E9EE97 /* KaBoomTwoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F702C9E1D149E6700E9EE97 /* KaBoomTwoUITests.swift */; };
+		4F702CAD1D14A04700E9EE97 /* redBomb.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F702CAC1D14A04700E9EE97 /* redBomb.png */; };
+		4F702CAF1D14A05100E9EE97 /* blueBomb.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F702CAE1D14A05100E9EE97 /* blueBomb.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F702C901D149E6700E9EE97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F702C701D149E6700E9EE97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F702C771D149E6700E9EE97;
+			remoteInfo = KaBoomTwo;
+		};
+		4F702C9B1D149E6700E9EE97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F702C701D149E6700E9EE97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F702C771D149E6700E9EE97;
+			remoteInfo = KaBoomTwo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F702C781D149E6700E9EE97 /* KaBoomTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaBoomTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F702C7B1D149E6700E9EE97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F702C7D1D149E6700E9EE97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F702C801D149E6700E9EE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F702C831D149E6700E9EE97 /* KaBoomTwo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KaBoomTwo.xcdatamodel; sourceTree = "<group>"; };
+		4F702C851D149E6700E9EE97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F702C881D149E6700E9EE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F702C8A1D149E6700E9EE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F702C8F1D149E6700E9EE97 /* KaBoomTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaBoomTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F702C931D149E6700E9EE97 /* KaBoomTwoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaBoomTwoTests.swift; sourceTree = "<group>"; };
+		4F702C951D149E6700E9EE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F702C9A1D149E6700E9EE97 /* KaBoomTwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaBoomTwoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F702C9E1D149E6700E9EE97 /* KaBoomTwoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaBoomTwoUITests.swift; sourceTree = "<group>"; };
+		4F702CA01D149E6700E9EE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F702CAC1D14A04700E9EE97 /* redBomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redBomb.png; sourceTree = "<group>"; };
+		4F702CAE1D14A05100E9EE97 /* blueBomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueBomb.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F702C751D149E6700E9EE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F702C8C1D149E6700E9EE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F702C971D149E6700E9EE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F702C6F1D149E6700E9EE97 = {
+			isa = PBXGroup;
+			children = (
+				4F702C7A1D149E6700E9EE97 /* KaBoomTwo */,
+				4F702C921D149E6700E9EE97 /* KaBoomTwoTests */,
+				4F702C9D1D149E6700E9EE97 /* KaBoomTwoUITests */,
+				4F702C791D149E6700E9EE97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F702C791D149E6700E9EE97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F702C781D149E6700E9EE97 /* KaBoomTwo.app */,
+				4F702C8F1D149E6700E9EE97 /* KaBoomTwoTests.xctest */,
+				4F702C9A1D149E6700E9EE97 /* KaBoomTwoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F702C7A1D149E6700E9EE97 /* KaBoomTwo */ = {
+			isa = PBXGroup;
+			children = (
+				4F702C7B1D149E6700E9EE97 /* AppDelegate.swift */,
+				4F702C7D1D149E6700E9EE97 /* ViewController.swift */,
+				4F702C7F1D149E6700E9EE97 /* Main.storyboard */,
+				4F702CAE1D14A05100E9EE97 /* blueBomb.png */,
+				4F702CAC1D14A04700E9EE97 /* redBomb.png */,
+				4F702C851D149E6700E9EE97 /* Assets.xcassets */,
+				4F702C871D149E6700E9EE97 /* LaunchScreen.storyboard */,
+				4F702C8A1D149E6700E9EE97 /* Info.plist */,
+				4F702C821D149E6700E9EE97 /* KaBoomTwo.xcdatamodeld */,
+			);
+			path = KaBoomTwo;
+			sourceTree = "<group>";
+		};
+		4F702C921D149E6700E9EE97 /* KaBoomTwoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F702C931D149E6700E9EE97 /* KaBoomTwoTests.swift */,
+				4F702C951D149E6700E9EE97 /* Info.plist */,
+			);
+			path = KaBoomTwoTests;
+			sourceTree = "<group>";
+		};
+		4F702C9D1D149E6700E9EE97 /* KaBoomTwoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F702C9E1D149E6700E9EE97 /* KaBoomTwoUITests.swift */,
+				4F702CA01D149E6700E9EE97 /* Info.plist */,
+			);
+			path = KaBoomTwoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F702C771D149E6700E9EE97 /* KaBoomTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F702CA31D149E6700E9EE97 /* Build configuration list for PBXNativeTarget "KaBoomTwo" */;
+			buildPhases = (
+				4F702C741D149E6700E9EE97 /* Sources */,
+				4F702C751D149E6700E9EE97 /* Frameworks */,
+				4F702C761D149E6700E9EE97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaBoomTwo;
+			productName = KaBoomTwo;
+			productReference = 4F702C781D149E6700E9EE97 /* KaBoomTwo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F702C8E1D149E6700E9EE97 /* KaBoomTwoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F702CA61D149E6700E9EE97 /* Build configuration list for PBXNativeTarget "KaBoomTwoTests" */;
+			buildPhases = (
+				4F702C8B1D149E6700E9EE97 /* Sources */,
+				4F702C8C1D149E6700E9EE97 /* Frameworks */,
+				4F702C8D1D149E6700E9EE97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F702C911D149E6700E9EE97 /* PBXTargetDependency */,
+			);
+			name = KaBoomTwoTests;
+			productName = KaBoomTwoTests;
+			productReference = 4F702C8F1D149E6700E9EE97 /* KaBoomTwoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F702C991D149E6700E9EE97 /* KaBoomTwoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F702CA91D149E6700E9EE97 /* Build configuration list for PBXNativeTarget "KaBoomTwoUITests" */;
+			buildPhases = (
+				4F702C961D149E6700E9EE97 /* Sources */,
+				4F702C971D149E6700E9EE97 /* Frameworks */,
+				4F702C981D149E6700E9EE97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F702C9C1D149E6700E9EE97 /* PBXTargetDependency */,
+			);
+			name = KaBoomTwoUITests;
+			productName = KaBoomTwoUITests;
+			productReference = 4F702C9A1D149E6700E9EE97 /* KaBoomTwoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F702C701D149E6700E9EE97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Paul Defilippi";
+				TargetAttributes = {
+					4F702C771D149E6700E9EE97 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 963UXK3MCT;
+					};
+					4F702C8E1D149E6700E9EE97 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4F702C771D149E6700E9EE97;
+					};
+					4F702C991D149E6700E9EE97 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4F702C771D149E6700E9EE97;
+					};
+				};
+			};
+			buildConfigurationList = 4F702C731D149E6700E9EE97 /* Build configuration list for PBXProject "KaBoomTwo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F702C6F1D149E6700E9EE97;
+			productRefGroup = 4F702C791D149E6700E9EE97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F702C771D149E6700E9EE97 /* KaBoomTwo */,
+				4F702C8E1D149E6700E9EE97 /* KaBoomTwoTests */,
+				4F702C991D149E6700E9EE97 /* KaBoomTwoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F702C761D149E6700E9EE97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F702C891D149E6700E9EE97 /* LaunchScreen.storyboard in Resources */,
+				4F702CAD1D14A04700E9EE97 /* redBomb.png in Resources */,
+				4F702C861D149E6700E9EE97 /* Assets.xcassets in Resources */,
+				4F702C811D149E6700E9EE97 /* Main.storyboard in Resources */,
+				4F702CAF1D14A05100E9EE97 /* blueBomb.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F702C8D1D149E6700E9EE97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F702C981D149E6700E9EE97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F702C741D149E6700E9EE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F702C841D149E6700E9EE97 /* KaBoomTwo.xcdatamodeld in Sources */,
+				4F702C7E1D149E6700E9EE97 /* ViewController.swift in Sources */,
+				4F702C7C1D149E6700E9EE97 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F702C8B1D149E6700E9EE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F702C941D149E6700E9EE97 /* KaBoomTwoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F702C961D149E6700E9EE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F702C9F1D149E6700E9EE97 /* KaBoomTwoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F702C911D149E6700E9EE97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F702C771D149E6700E9EE97 /* KaBoomTwo */;
+			targetProxy = 4F702C901D149E6700E9EE97 /* PBXContainerItemProxy */;
+		};
+		4F702C9C1D149E6700E9EE97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F702C771D149E6700E9EE97 /* KaBoomTwo */;
+			targetProxy = 4F702C9B1D149E6700E9EE97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F702C7F1D149E6700E9EE97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F702C801D149E6700E9EE97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F702C871D149E6700E9EE97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F702C881D149E6700E9EE97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F702CA11D149E6700E9EE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F702CA21D149E6700E9EE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F702CA41D149E6700E9EE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = KaBoomTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.KaBoomTwo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		4F702CA51D149E6700E9EE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = KaBoomTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.KaBoomTwo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		4F702CA71D149E6700E9EE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KaBoomTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.KaBoomTwoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaBoomTwo.app/KaBoomTwo";
+			};
+			name = Debug;
+		};
+		4F702CA81D149E6700E9EE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KaBoomTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.KaBoomTwoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaBoomTwo.app/KaBoomTwo";
+			};
+			name = Release;
+		};
+		4F702CAA1D149E6700E9EE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KaBoomTwoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.KaBoomTwoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KaBoomTwo;
+			};
+			name = Debug;
+		};
+		4F702CAB1D149E6700E9EE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KaBoomTwoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.KaBoomTwoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KaBoomTwo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F702C731D149E6700E9EE97 /* Build configuration list for PBXProject "KaBoomTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F702CA11D149E6700E9EE97 /* Debug */,
+				4F702CA21D149E6700E9EE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F702CA31D149E6700E9EE97 /* Build configuration list for PBXNativeTarget "KaBoomTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F702CA41D149E6700E9EE97 /* Debug */,
+				4F702CA51D149E6700E9EE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F702CA61D149E6700E9EE97 /* Build configuration list for PBXNativeTarget "KaBoomTwoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F702CA71D149E6700E9EE97 /* Debug */,
+				4F702CA81D149E6700E9EE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F702CA91D149E6700E9EE97 /* Build configuration list for PBXNativeTarget "KaBoomTwoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F702CAA1D149E6700E9EE97 /* Debug */,
+				4F702CAB1D149E6700E9EE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4F702C821D149E6700E9EE97 /* KaBoomTwo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4F702C831D149E6700E9EE97 /* KaBoomTwo.xcdatamodel */,
+			);
+			currentVersion = 4F702C831D149E6700E9EE97 /* KaBoomTwo.xcdatamodel */;
+			path = KaBoomTwo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4F702C701D149E6700E9EE97 /* Project object */;
+}
